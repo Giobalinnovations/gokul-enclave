@@ -97,7 +97,7 @@ const HighlightCard = ({
 
 export default function EpicentreSection() {
   return (
-    <Section className="py-16 overflow-hidden">
+    <Section id="key-highlights" className="py-16 overflow-hidden">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

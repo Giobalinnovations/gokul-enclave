@@ -38,13 +38,13 @@ const navigationItems: {
     href: '#about',
   },
   {
-    title: 'Floor Plans',
-    href: '#floor-plans',
+    title: 'Projects',
+    href: '#projects',
   },
 
   {
-    title: 'Location',
-    href: '#location',
+    title: 'Key Highlights',
+    href: '#key-highlights',
   },
 ];
 
