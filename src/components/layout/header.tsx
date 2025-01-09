@@ -16,7 +16,7 @@ import {
   SheetTrigger,
 } from '@/components/ui/sheet';
 import { Button } from '@/components/ui/button';
-import { Menu, Phone } from 'lucide-react';
+import { Menu } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -111,18 +111,6 @@ export default function Header() {
               ))}
             </NavigationMenuList>
           </NavigationMenu>
-
-          <Button
-            variant="outline"
-            size="sm"
-            className="hidden md:flex border-gray-300 text-gray-800 hover:bg-gray-100"
-            asChild
-          >
-            <Link href="#hero">
-              <Phone className="mr-2 h-4 w-4" />
-              Contact Us
-            </Link>
-          </Button>
         </div>
 
         {/* Mobile Navigation */}
@@ -181,14 +169,6 @@ export default function Header() {
                   )}
                 </div>
               ))}
-              <Button
-                className="w-full mt-8 text-gray-800 hover:bg-gray-100 border-gray-300"
-                variant="outline"
-                size="lg"
-              >
-                <Phone className="mr-2 h-5 w-5" />
-                Contact Us
-              </Button>
             </nav>
           </SheetContent>
         </Sheet>
