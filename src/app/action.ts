@@ -79,7 +79,7 @@ async function sendEmail(
     const mailOptions = {
       from: process.env.HOSTINGER_EMAIL,
       to: process.env.HOSTINGER_EMAIL,
-      subject: 'New Contact Form Submission - Antalya Hills',
+      subject: 'New Contact Form Submission - Gokul Enclave',
       text: `
         New contact form submission:
 
