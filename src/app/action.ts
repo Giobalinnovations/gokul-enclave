@@ -129,8 +129,5 @@ export const submitContact = actionClient
 
     return {
       success: true,
-      data: {
-        success: true,
-      },
     };
   });
